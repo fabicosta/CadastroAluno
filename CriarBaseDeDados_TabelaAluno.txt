@@ -1,0 +1,11 @@
+-- Criar a base de dados depois a Tabela
+
+create database Aluno;
+
+create table Aluno ( 
+	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	primeiroNome VARCHAR(50) NOT NULL, 
+	ultimoNome VARCHAR(50) NOT NULL, 
+	curso VARCHAR(50) NOT NULL, 
+	idade INT NOT NULL
+);
